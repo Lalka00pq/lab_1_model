@@ -7,7 +7,11 @@ authors = [
     { name = "Lalka00pq", email = "lalka00pq@gmail.com" }
 ]
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "matplotlib>=3.11.2",
+    "pandas>=3.1.1",
+    "seaborn>=0.13.2",
+]
 
 [project.scripts]
 lab-1-model = "lab_1_model:main"
